@@ -1,14 +1,22 @@
 =============README EXAMPLE==============
+	JustinTVList  ~ New Coming Monitor ~
 
-origin clone from http://list0.xlphp.net/
-
-including 3 files :
+(origin)
+clone from http://list0.xlphp.net/, including 3 files :
 	index.html
 	js.js
 	css.css
 
+(develop)
+recommand establish method:
+	alias simpleweb='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
 
-Todo : 
+features :
+	(1) auto refresh per 5 min
+	(2) colorful display for time interval "6(red), 16(orange), 46(cryn)"
+		from setup_time to now
+
+(Todo)
 	sort by times (x)
 	clear display new broadcaster (calculating time interval)
 
