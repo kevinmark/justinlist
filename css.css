@@ -1,0 +1,12 @@
+body{font-family:Verdana;font-size:12px;background:#000;color:#fff}
+img{height:113px}
+.ff{margin:5px;padding:5px;display:inline-block;border:1px solid #fff;background:#666}
+.ff:hover{background:#888}
+.ff,#re{cursor:pointer}
+.ff{*display:inline}
+img,.ff,.f0,.f1,.f2{width:150px}
+.f0,.f1,.f2{overflow:hidden;}
+.f0{height:30px}
+.f1{height:15px}
+.f3{float:left}
+.f4{float:right}
