@@ -6,7 +6,7 @@ function j(x){
 		c=vt?x[i]:x[i].channel;
 		a=r(c.status);
 		b=r(c.title);
-		v.insertAdjacentHTML('beforeEnd','<div class="ff" title="'+a+'\r\r'+b+'"><div class="f0">'+a+'</div><div class="f1">'+b+'</div><img src="'+c.screen_cap_url_medium+'"><div class="f2">'+c.login+'</div><span class="f3">['+o+']</span><span class="f4">'+(vt?'':('觀眾:' +x[i].channel_count))+'</span></div>');
+		v.insertAdjacentHTML('beforeEnd','<div class="ff" title="'+a+'\r\r'+b+'"><div class="f0">'+a+'</div><div class="f1">'+b+'</div><img src="'+c.screen_cap_url_medium+'"><div class="f2">'+c.login+'</div><span class="f3">['+o+']</span><span class="f4">'+(vt?'':('觀眾:' +x[i].channel_count))+'</span><div style="float:left;color:red">['+x[i].up_time+']</div></div>');
 		v.lastChild.onclick=function(){wo(this.childNodes[3].innerHTML)}
 	}
 	n==100?s():z();
