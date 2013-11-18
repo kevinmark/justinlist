@@ -24,9 +24,9 @@ function interval_level(diff){
 	difflv=diff.split(":");
 	if (difflv[0] > 0) {return 4;}
 	//else if (isNaN(difflv[0]) {return 4;}
-	else if (difflv[1] < 6 ) {return 1;}
-	else if (difflv[1] < 16 ) {return 2;}
-	else if (difflv[1] < 46 ) {return 3;}
+	else if (difflv[1] < 6 ) {return 1;}    // first interval
+	else if (difflv[1] < 21 ) {return 2;}   // middle interval
+	else if (difflv[1] < 46 ) {return 3;}   // release interval
 	else {return 4;}
 }
 function s(){document.getElementsByTagName('head')[0].appendChild(document.createElement('script')).src='http://api.justin.tv/api/' +(jid?('user/favorites/'+jid):'stream/list')+'.json?jsonp=j&'+(jid?'live=true':'language=zh-*')+'&limit=100&offset='+o;}
